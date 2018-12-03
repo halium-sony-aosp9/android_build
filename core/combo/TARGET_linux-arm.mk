@@ -34,7 +34,7 @@ TARGET_$(combo_2nd_arch_prefix)CPU_VARIANT := generic
 endif
 
 KNOWN_ARMv8_CORES := cortex-a53 cortex-a53.a57 cortex-a55 cortex-a73 cortex-a75 cortex-a76
-KNOWN_ARMv8_CORES += kryo denver64 exynos-m1 exynos-m2
+KNOWN_ARMv8_CORES += kryo exynos-m1 exynos-m2
 
 # Many devices (incorrectly) use armv7-a-neon as the 2nd architecture variant
 # for cores that implement armv8-a ISAs. The following sets it to armv8-a.
